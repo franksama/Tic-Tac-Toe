@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #666; }
+
+h1 {
+  text-align: center; }
+
+#board {
+  width: 50%;
+  margin: 0 auto; }
+
+#outcome {
+  clear: both;
+  float: left;
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%; }
+
+.row {
+  float: left;
+  width: 100%; }
+
+.col {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  text-align: center;
+  width: 33%;
+  padding-top: 3%; }
+
+.x {
+  color: red; }
+
+.o {
+  color: blue; }
